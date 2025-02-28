@@ -1,0 +1,204 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/lab2_benchmarks.exe"
+		},
+		{
+			"path" : "bin/lab2_benchmarks.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"benchmark_lab2/CMakeLists.txt",
+			"cmake-build-debug-visual-studio/_deps/googlebenchmark-src/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-openmp"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/TU Darmstadt/Semester3/Parallele Programmierung/lab_3/source"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/TU Darmstadt/Semester3/Parallele Programmierung/lab_3/cmake-build-debug-visual-studio/_deps/googlebenchmark-src/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "project_options::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "lab_lib::@411ffd8adc737496fe19"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "benchmark::@a5e768fe43450e220d4b"
+		}
+	],
+	"id" : "lab2_benchmarks::@8657bffdc15be2712d2f",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-LIBPATH:C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v12.8\\lib\\x64",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "source\\lab_lib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps\\googlebenchmark-build\\src\\benchmark.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "shlwapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "cudadevrt.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "cudart_static.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "lab2_benchmarks",
+	"nameOnDisk" : "lab2_benchmarks.exe",
+	"paths" : 
+	{
+		"build" : "benchmark_lab2",
+		"source" : "benchmark_lab2"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "benchmark_lab2/benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "benchmark_lab2/benchmark.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

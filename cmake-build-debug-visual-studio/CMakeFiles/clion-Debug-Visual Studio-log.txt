@@ -1,0 +1,62 @@
+"C:\Users\Dinh Tien Vu\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/Dinh Tien Vu/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\TU Darmstadt\Semester3\Parallele Programmierung\lab_3" -B "D:\TU Darmstadt\Semester3\Parallele Programmierung\lab_3\cmake-build-debug-visual-studio"
+-- No colored compiler diagnostic set for 'MSVC' compiler.
+CMake Warning at cmake/Cache.cmake:29 (message):
+  ccache is enabled but was not found.  Not using it
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (include)
+
+
+CMake Deprecation Warning at cmake-build-debug-visual-studio/_deps/cli11-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- git version: v1.6.1 normalized to 1.6.1
+-- Version: 1.6.1
+-- Performing Test HAVE_STD_REGEX -- success
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_STEADY_CLOCK -- success
+-- Could NOT find Python (missing: Python_EXECUTABLE Interpreter) 
+-- Configuring done (8.9s)
+CMake Warning (dev) in source/CMakeLists.txt:
+  Policy CMP0104 is not set: CMAKE_CUDA_ARCHITECTURES now detected for NVCC,
+  empty CUDA_ARCHITECTURES not allowed.  Run "cmake --help-policy CMP0104"
+  for policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  CUDA_ARCHITECTURES is empty for target "lab_lib".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in test_lab3/CMakeLists.txt:
+  Policy CMP0104 is not set: CMAKE_CUDA_ARCHITECTURES now detected for NVCC,
+  empty CUDA_ARCHITECTURES not allowed.  Run "cmake --help-policy CMP0104"
+  for policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  CUDA_ARCHITECTURES is empty for target "lab3_test".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done (0.0s)
+CMake Warning (dev) in test_lab3/CMakeLists.txt:
+  Policy CMP0104 is not set: CMAKE_CUDA_ARCHITECTURES now detected for NVCC,
+  empty CUDA_ARCHITECTURES not allowed.  Run "cmake --help-policy CMP0104"
+  for policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  CUDA_ARCHITECTURES is empty for target "lab3_test".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in source/CMakeLists.txt:
+  Policy CMP0104 is not set: CMAKE_CUDA_ARCHITECTURES now detected for NVCC,
+  empty CUDA_ARCHITECTURES not allowed.  Run "cmake --help-policy CMP0104"
+  for policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  CUDA_ARCHITECTURES is empty for target "lab_lib".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Build files have been written to: D:/TU Darmstadt/Semester3/Parallele Programmierung/lab_3/cmake-build-debug-visual-studio

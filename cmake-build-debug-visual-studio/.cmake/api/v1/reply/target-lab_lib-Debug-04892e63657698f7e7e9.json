@@ -1,0 +1,381 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "source/lab_lib.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"source/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-openmp:llvm"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-openmp"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "D:/TU Darmstadt/Semester3/Parallele Programmierung/lab_3/source"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-D_WINDOWS -Xcompiler=\"/W3 /GR /EHsc\" -Xcompiler=\"-MDd  -Zi -Ob0 -Od /RTC1\" -std=c++17"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-openmp:llvm"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "D:/TU Darmstadt/Semester3/Parallele Programmierung/lab_3/source"
+				}
+			],
+			"language" : "CUDA",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				13
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "project_options::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "lab_lib::@411ffd8adc737496fe19",
+	"name" : "lab_lib",
+	"nameOnDisk" : "lab_lib.lib",
+	"paths" : 
+	{
+		"build" : "source",
+		"source" : "source"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "source\\io",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "source\\image",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "source\\structures",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "source\\input_generator",
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"name" : "source\\simulation",
+			"sourceIndexes" : 
+			[
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "source\\plotting",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16,
+				17
+			]
+		},
+		{
+			"name" : "source\\quadtree",
+			"sourceIndexes" : 
+			[
+				18,
+				19
+			]
+		},
+		{
+			"name" : "source",
+			"sourceIndexes" : 
+			[
+				20
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/io/image_parser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/image/bitmap_image.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/structures/universe.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/structures/vector2d.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/structures/bounding_box.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/input_generator/random_universe.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/input_generator/earth_orbit.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/input_generator/random_universe_with_supermassive_blackhole.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/input_generator/two_body_collision.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/simulation/naive_sequential_simulation.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/simulation/naive_parallel_simulation.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/simulation/barnes_hut_simulation.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/simulation/barnes_hut_simulation_with_collisions.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "source/simulation/naive_cuda_simulation.cu",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/plotting/plotter.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/plotting/universe.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/plotting/quadtree.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/plotting/bounding_box.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/quadtree/quadtree.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "source/quadtree/quadtreeNode.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 6,
+			"path" : "source/authors_lab1.h",
+			"sourceGroupIndex" : 7
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

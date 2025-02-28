@@ -1,0 +1,16 @@
+#pragma once
+
+#define AUTHORS_A "Dinh Tien Vu"
+#define AUTHORS_B "Dinh Tien Vu"
+#define AUTHORS_C "Dinh Tien Vu"
+#define AUTHORS_D "Dinh Tien Vu"
+#define AUTHORS_E "Dinh Tien Vu"
+#define AUTHORS_F "Dinh Tien Vu"
+#define AUTHORS_G "Dinh Tien Vu"
+#define AUTHORS_H "Dinh Tien Vu"
+#define AUTHORS_I "Dinh Tien Vu"
+#define AUTHORS_J "Dinh Tien Vu"
+#define AUTHORS_K "Dinh Tien Vu"
+#define AUTHORS_L "Dinh Tien Vu"
+#define AUTHORS_M "Dinh Tien Vu"
+#define AUTHORS_N "Dinh Tien Vu"
